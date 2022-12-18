@@ -1,16 +1,21 @@
 import 'package:dart_package/dart_package.dart' as dart_package;
 
 void main(List<String> arguments) {
+/*
+  //comment
 
   int a = 10;
+ */
   String attr = "Hi";
   print('Hello world:');
-
+/*
   print(a);
   print(attr);
   print("Hi :" + attr);
   print("Hi : attr" );
   print("Hi : ${a * 2}" );
+ */
+
 
   // var myList = List.filled(3, null, growable: false);
   // myList[0] = "one" ;
@@ -18,6 +23,8 @@ void main(List<String> arguments) {
   //
   // print( myList[0]);
   var countries = new List.filled(3,'');
+
+  // hhh
   countries[0] = 'Iran';
   countries[1] = 'Turkey';
   countries[2] = 'Spain';
